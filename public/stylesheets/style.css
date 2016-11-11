@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+@import 'materialize.min.css';
+/* font-family: 'Rock Salt', cursive; */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.sticky {
+  width: 300px;
+  height: 300px;
+  box-shadow: 3px 3px 8px 0 #666;
+  padding: 0.8rem 2.4rem;
+}
+
+.sticky.default {
+  background-color: #FFFFA5;
+}
+
+.sticky.blue {
+  background-color: #B3E8FF;
+}
+
+.sticky.pink {
+  background-color: #FFEDFE;
+}
+
+.sticky .note {
+  font-family: 'Rock Salt', cursive;
+  font-size: 0.8rem
+}
+
+.note h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: -0.7rem;
+}
